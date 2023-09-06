@@ -21,7 +21,7 @@ export default function NameSection() {
         </div>
         <div className="text-center mt-2">
           <p className="text-white text-lg font-bold">Rian Tosm</p>
-          <p className="text-slate-300 text-xs" style={{ lineHeight: 0.5 }}>
+          <p className="text-gray-500 text-xs" style={{ lineHeight: 0.5 }}>
             Software Engineer
           </p>
         </div>
