@@ -1,3 +1,5 @@
+import IconCoffeeCup from "./IconCoffeeCup.png";
+import IconRianWhite from "./IconRianWhite.png";
 import ProfilePicture from "./ProfilePicture.jpg";
 
-export { ProfilePicture };
+export { IconCoffeeCup, IconRianWhite, ProfilePicture };
