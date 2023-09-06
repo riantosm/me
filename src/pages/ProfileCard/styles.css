@@ -9,6 +9,10 @@
   --card-width: calc(var(--card-height) / 1.5);
 }
 
+p {
+  color: white;
+}
+
 body {
   min-height: 100vh;
   background: #212534;
@@ -32,7 +36,7 @@ body {
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
-  display: flex;
+  /* display: grid; */
   color: rgb(88 199 250 / 0%);
 }
 
