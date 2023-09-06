@@ -2,8 +2,8 @@ import Assets from "@/assets";
 
 export default function NameSection() {
   return (
-    <div className="border flex-grow place-self-center">
-      <div className="grid w-full h-ful mt-5">
+    <div className="flex-grow place-self-center grid items-center">
+      <div className="grid w-full h-ful -mt-20">
         <div className="place-self-center items-center grid grid-cols-3 px-5 w-full">
           <div className="text-center">
             {/* <p className="text-white font-bold text-lg">542</p>

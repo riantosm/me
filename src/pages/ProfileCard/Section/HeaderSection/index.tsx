@@ -6,7 +6,7 @@ export default function HeaderSection() {
   };
 
   return (
-    <div className="pt-3 px-3 flex items-center justify-between">
+    <div className="pt-3 px-3 flex items-center justify-between w-full">
       <p className="text-white text-xl font-bold">Profile</p>
       <button onClick={directToInstagram}>
         <BsInstagram className="text-white text-lg" />

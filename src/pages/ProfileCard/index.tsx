@@ -1,5 +1,5 @@
 // import styles from "./styles.module.css";
-import { HeaderSection, HighlightSection, NameSection } from "./Section";
+import { HeaderSection, NameSection, VersionSection } from "./Section";
 import "./styles.css";
 
 export default function ProfileCard() {
@@ -8,7 +8,8 @@ export default function ProfileCard() {
       <div className="card items-start flex flex-col">
         <HeaderSection />
         <NameSection />
-        <HighlightSection />
+        {/* <HighlightSection /> */}
+        <VersionSection />
         {/* <NewHighlight /> */}
       </div>
     </div>
