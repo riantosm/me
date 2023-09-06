@@ -33,7 +33,7 @@ export default function NameSection() {
         style={{ lineHeight: 1.2 }}
       >
         <p className="text-gray-200 italic">
-          Dan pada akhirnya usaha bisa menghianati hasil
+          Pada akhirnya usaha bisa menghianati hasil
         </p>
       </div>
     </div>
