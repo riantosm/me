@@ -1,0 +1,58 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+.grid-item {
+  color: #fff;
+  padding: 3.5em 1em;
+  font-size: 1em;
+}
+.header {
+  grid-area: header;
+  padding: 1em;
+}
+.title {
+  color: gray;
+  grid-area: title;
+}
+.main {
+  color: lighten(gray, 25%);
+  grid-area: main;
+  padding: 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.footer {
+  grid-area: footer;
+  padding: 0.6em;
+}
+.items {
+  position: relative;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  transition: all 0.2s;
+  will-change: transform;
+  user-select: none;
+  /* transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9); */
+}
+/* .items.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+} */
+.item {
+  display: inline-block;
+  min-height: 50px;
+  min-width: fit-content;
+}

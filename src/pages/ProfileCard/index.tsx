@@ -9,6 +9,7 @@ export default function ProfileCard() {
         <HeaderSection />
         <NameSection />
         <HighlightSection />
+        {/* <NewHighlight /> */}
       </div>
     </div>
   );
