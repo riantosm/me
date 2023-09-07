@@ -7,13 +7,13 @@ export default function UnderConstruction() {
       <Helmet>
         <script>
           {`
-        let body = document.getElementsByTagName('body')[0];
-        body.classList.add('body-under-construction');
-        `}
+            let body = document.getElementsByTagName('body')[0];
+            body.classList.add('body-under-construction');
+          `}
         </script>
       </Helmet>
       <div className="text-container">
-        <h1>Sedang</h1>
+        <h1>lagi sibuk dikit</h1>
       </div>
     </div>
   );
