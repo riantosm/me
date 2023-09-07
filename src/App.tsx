@@ -3,8 +3,8 @@ import { ProfileCard, UnderConstruction } from "./pages";
 export default function App() {
   return (
     <div>
-      <ProfileCard />
-      {/* <UnderConstruction /> */}
+      {/* <ProfileCard /> */}
+      <UnderConstruction />
     </div>
   );
 }
