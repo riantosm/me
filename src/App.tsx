@@ -1,9 +1,10 @@
-import { ProfileCard } from "./pages";
+import { ProfileCard, UnderConstruction } from "./pages";
 
 export default function App() {
   return (
     <div>
-      <ProfileCard />
+      {/* <ProfileCard /> */}
+      <UnderConstruction />
     </div>
   );
 }

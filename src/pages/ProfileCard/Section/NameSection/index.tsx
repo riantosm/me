@@ -34,7 +34,7 @@ export default function NameSection() {
           style={{ lineHeight: 1.45 }}
         >
           <span className="text-gray-200">
-            <span className="italic">You are my gym motivation</span>❤️‍🩹
+            <span className="italic">"I'm alone because I'm not worth it for anyone"</span>
           </span>
         </div>
       </div>
