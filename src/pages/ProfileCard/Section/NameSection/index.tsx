@@ -20,8 +20,8 @@ export default function NameSection() {
           </div>
         </div>
         <div className="text-center mt-2">
-          <p className="text-white text-lg font-bold">Rian Tosm</p>
-          <p className="text-gray-500 text-xs" style={{ lineHeight: 0.5 }}>
+          <p className="text-white text-lg font-bold font-noto">Rian Tosm</p>
+          <p className="text-gray-500 text-[11px]" style={{ lineHeight: 0.5 }}>
             Software Engineer
           </p>
         </div>
@@ -30,12 +30,12 @@ export default function NameSection() {
         <p className="text-sky-400 text-sm">Jakarta, Indonesia</p>
       </div> */}
         <div
-          className="mt-5 text-center px-5 text-sm place-self-center w-[220px]"
-          style={{ lineHeight: 1.2 }}
+          className="mt-10 text-center px-5 text-sm place-self-center w-[220px]"
+          style={{ lineHeight: 1.45 }}
         >
-          <p className="text-gray-200 italic">
-            Pada akhirnya usaha bisa menghianati hasil
-          </p>
+          <span className="text-gray-200">
+            <span className="italic">You are my gym motivation</span>❤️‍🩹
+          </span>
         </div>
       </div>
     </div>

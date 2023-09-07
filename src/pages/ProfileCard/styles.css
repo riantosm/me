@@ -9,6 +9,10 @@
   --card-width: calc(var(--card-height) / 1.5);
 }
 
+.font-noto {
+  font-family: 'Noto Sans', sans-serif;
+}
+
 p {
   color: white;
 }
@@ -59,12 +63,10 @@ body {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  background-image: linear-gradient(
-    var(--rotate),
-    #5ddcff,
-    #3c67e3 43%,
-    #4e00c2
-  );
+  background-image: linear-gradient(var(--rotate),
+      #5ddcff,
+      #3c67e3 43%,
+      #4e00c2);
   position: absolute;
   z-index: -1;
   top: -1%;
@@ -84,12 +86,10 @@ body {
   margin: 0 auto;
   transform: scale(0.8);
   filter: blur(calc(var(--card-height) / 6));
-  background-image: linear-gradient(
-    var(--rotate),
-    #5ddcff,
-    #3c67e3 43%,
-    #4e00c2
-  );
+  background-image: linear-gradient(var(--rotate),
+      #5ddcff,
+      #3c67e3 43%,
+      #4e00c2);
   opacity: 1;
   transition: opacity 0.5s;
   animation: spin 2.5s linear infinite;
@@ -99,6 +99,7 @@ body {
   0% {
     --rotate: 0deg;
   }
+
   100% {
     --rotate: 360deg;
   }

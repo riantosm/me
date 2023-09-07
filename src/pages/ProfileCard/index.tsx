@@ -5,7 +5,7 @@ import "./styles.css";
 export default function ProfileCard() {
   return (
     <div>
-      <div className="card items-start flex flex-col">
+      <div className="card items-start flex flex-col -mt-20">
         <HeaderSection />
         <NameSection />
         {/* <HighlightSection /> */}
