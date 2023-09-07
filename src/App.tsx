@@ -1,10 +1,11 @@
-import { UnderConstruction } from "./pages";
+import { ProfileCardGlass } from "./pages";
 
 export default function App() {
   return (
     <div>
       {/* <ProfileCard /> */}
-      <UnderConstruction />
+      <ProfileCardGlass />
+      {/* <UnderConstruction /> */}
     </div>
   );
 }
