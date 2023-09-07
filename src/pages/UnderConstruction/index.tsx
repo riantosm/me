@@ -19,7 +19,7 @@ export default function UnderConstruction() {
           <span className="uppercase">sedang sibuk dikit</span>
           <br />
           <br />
-          <span className="text-[10px] font-thin mt-10">v23.x</span>
+          <span className="text-[8px] font-light mt-10">v23.x</span>
         </p>
       </div>
     </div>
