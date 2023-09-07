@@ -13,7 +13,14 @@ export default function UnderConstruction() {
         </script>
       </Helmet>
       <div className="text-container">
-        <h1>lagi sibuk dikit</h1>
+        <p>
+          <span className="text-xs text-small uppercase">Sepertinya</span>
+          <br />
+          <span className="uppercase">sedang sibuk dikit</span>
+          <br />
+          <br />
+          <span className="text-[10px] font-thin mt-10">v23.x</span>
+        </p>
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { ProfileCard, UnderConstruction } from "./pages";
+import { UnderConstruction } from "./pages";
 
 export default function App() {
   return (
