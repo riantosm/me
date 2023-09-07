@@ -7,7 +7,7 @@ export default function HeaderSection() {
 
   return (
     <div className="pt-4 px-4 flex items-center justify-between w-full h-fit">
-      <p className="text-white text-2xl font-bold">/me</p>
+      <p className="text-white text-2xl font-bold">./me</p>
       <button onClick={directToInstagram}>
         <BsInstagram className="text-white text-xl" />
       </button>

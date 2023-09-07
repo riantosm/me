@@ -5,7 +5,7 @@ export default function QuoteSection() {
       style={{ lineHeight: 1.45 }}
     >
       <span className="text-gray-500 italic font-normal text-xs">
-        - I'm not worth it for you -
+        I think she doesn't like me
       </span>
     </div>
   );
