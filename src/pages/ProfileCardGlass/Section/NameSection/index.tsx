@@ -1,8 +1,12 @@
 import Assets from "@/assets";
 
-export default function NameSection() {
+export default function NameSection({ isShow }: { isShow: boolean }) {
   return (
-    <div className="flex-grow grid items-center h-fit">
+    <div
+      className={`flex-grow grid items-center h-fit transition-all ${
+        isShow ? "opacity-100" : "opacity-0"
+      }`}
+    >
       <div className="grid w-full h-full">
         <div className="place-self-center items-center grid justify-center px-5 w-full">
           <img
