@@ -1,10 +1,20 @@
 import Assets from "@/assets";
+import { useState, useEffect } from "react";
 
 export default function NameSection({ isShow }: { isShow: boolean }) {
+  const [isLoadingProfile, setIsLoadingProfile] = useState(false);
+
+  useEffect(() => {
+    if (!isShow) return;
+    setTimeout(() => {
+      setIsLoadingProfile(true);
+    }, 500);
+  }, [isShow]);
+
   return (
     <div
-      className={`flex-grow grid items-center h-fit transition-all ${
-        isShow ? "opacity-100" : "opacity-0"
+      className={`flex-grow grid items-center h-fit transition-all duration-1000 ${
+        isLoadingProfile ? "opacity-100" : "opacity-0"
       }`}
     >
       <div className="grid w-full h-full">
