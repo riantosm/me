@@ -4,11 +4,11 @@ import { HeaderSection, NameSection, QuoteSection } from "./Section";
 import { useEffect, useState } from "react";
 
 export default function ProfileCardGlass() {
-  const [height, setHeight] = useState("h-[90px]");
+  const [height, setHeight] = useState("h-[60px]");
   const [isShow, setIsShow] = useState(false);
 
   useEffect(() => {
-    setHeight("h-[90px]");
+    setHeight("h-[60px]");
     setIsShow(false);
     setTimeout(() => {
       setHeight("h-[550px]");

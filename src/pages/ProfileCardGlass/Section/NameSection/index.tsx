@@ -18,7 +18,7 @@ export default function NameSection({ isShow }: { isShow: boolean }) {
         <div className="text-center mt-2">
           <p className="text-white text-lg font-bold font-noto">Rian Tosm</p>
           <p
-            className="text-gray-500 font-normal text-[11px]"
+            className="text-gray-400 font-normal text-[11px]"
             style={{ lineHeight: 0.7 }}
           >
             Software Engineer

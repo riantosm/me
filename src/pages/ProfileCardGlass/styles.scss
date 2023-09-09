@@ -10,7 +10,7 @@ body {
 }
 
 .wrapper {
-  background: #060b21d5;
+  // background: #060b21d5;
 }
 .frame {
   display: flex;
@@ -110,7 +110,7 @@ body {
       -webkit-filter: blur(40px);
       z-index: 10;
       animation-direction: reverse;
-}
+    }
     .bg-black {
       left: 0;
       bottom: 0;
@@ -118,7 +118,7 @@ body {
       -webkit-filter: blur(40px);
       z-index: 1;
       animation-direction: reverse;
-}
+    }
   }
 }
 
