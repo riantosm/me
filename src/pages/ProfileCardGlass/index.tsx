@@ -38,11 +38,11 @@ export default function ProfileCardGlass() {
         <div className="frame-bg rounded-2xl overflow-hidden border border-slate-900">
           <img
             className="bg-color album-artwork"
-            src={Assets.Images.DummyCity}
+            src={Assets.Images.DummyBlue}
           />
           <img
             className="bg-black album-artwork"
-            src={Assets.Images.ProfilePicture}
+            src={Assets.Images.DummyCity}
           />
         </div>
       </div>

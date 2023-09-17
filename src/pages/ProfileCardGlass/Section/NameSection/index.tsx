@@ -28,10 +28,10 @@ export default function NameSection({ isShow }: { isShow: boolean }) {
         <div className="text-center mt-2">
           <p className="text-white text-lg font-bold font-noto">Rian Tosm</p>
           <p
-            className="text-gray-400 font-normal text-[11px]"
+            className="text-gray-400 font-normal text-[11px] font-custom-1"
             style={{ lineHeight: 0.7 }}
           >
-            Software Engineer
+            mas-mas biasa
           </p>
         </div>
         {/* <div className="flex items-center gap-1 mt-5 w-fit place-self-center">
